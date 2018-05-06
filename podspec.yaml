@@ -1,0 +1,34 @@
+grow_version: ">=0.4.0"
+title@: Revamp 4G AMP
+description@: "This project startup of AMP and Grow"
+
+error_routes:
+  default: /views/errors/default.html
+
+localization:
+  default_locale: en
+  locales:
+  - bn
+  - en
+
+static_dirs:
+- static_dir: /dist/
+  serve_at: /static/css/
+- static_dir: /source/fonts/
+  serve_at: /static/fonts/
+- static_dir: /source/images/
+  serve_at: /static/images/
+
+preprocessors:
+- kind: sass
+  sass_dir: /source/sass/
+  out_dir: /dist/
+
+deployments:
+  default:
+    destination: local
+    out_dir: /var/www/rev4g.me/html        
+    env:
+      host: rev4g.me
+      scheme: http
+      

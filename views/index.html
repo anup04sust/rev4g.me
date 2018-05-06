@@ -1,0 +1,64 @@
+<!doctype html>
+<html ⚡ lang="{{doc.locale}}">
+    <head>
+        <meta charset="utf-8">
+        <title>{{_(doc.title)}} – {{_(podspec.title)}}</title>
+        <link rel="canonical" href="index.default.html">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <style amp-boilerplate>
+            {% include "/dist/amp-boilerplate.min.css" %}
+        </style>
+        <noscript>
+        <style amp-boilerplate>
+            {% include "/dist/noscript.min.css" %}
+        </style>
+        </noscript>
+        <style amp-custom>
+            {% include "/dist/main.min.css" %}
+        </style>
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+    </head>
+    <body>
+        <header class="ampstart-headerbar">
+            <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">
+                <span class="toggle-btn">
+                    <span class="btn-bar bar-1"></span>
+                    <span class="btn-bar bar-1"></span>
+                    <span class="btn-bar bar-1"></span>
+                </span>
+            </div>
+            <a href="#{{doc.locale}}" class="ampstart-headerbar-sm-lang">
+                {{doc.locale}}
+            </a>
+            <a href="/" class="ampstart-headerbar-home-link">
+                <span class="ampstart-headerbar-title-logo"></span>
+            </a>
+            <nav class="ampstart-headerbar-nav ampstart-nav">
+                <ul>
+                    <li class="ampstart-nav-item ">
+                        <a href="#">Bangla</a>
+                    </li>
+                    <li class="ampstart-nav-item ">
+                        <a href="#">About 4G</a>
+                    </li>
+                    <li class="ampstart-nav-item ">
+                        <a href="#">4G Coverage</a>
+                    </li>
+                    <li class="ampstart-nav-item ">
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li class="ampstart-nav-item ">
+                        <a href="#">Get a 4g device</a>
+                    </li>
+                    <li class="ampstart-nav-item ">
+                        <a href="#">Get a 4g sim</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="amp-page-banner">
+            <div class="">Banner</div>
+        </section>
+        <footer>Footer</footer>
+    </body>
+</html>
