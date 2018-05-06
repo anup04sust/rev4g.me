@@ -1,3 +1,26 @@
 .ampstart-headerbar{
-    background: red;
+   background: linear-gradient(180deg, #031021 23.2%, rgba(3, 16, 33, 0) 100%);
+   position: relative;
+   padding: 30px 40px;
+    .ampstart-headerbar-home-link{
+        display: block;
+
+        @media (min-width:$device_lg) {
+            width: 235px;
+            height: 65px;
+            &.home-en{
+                background-image: url(static/images/logo/gp-en.png);
+            }
+            &.home-bn{
+                background-image: url(static/images/logo/gp-en.png); 
+            }
+        }
+        @media (max-width:$device_sm_max) {
+            width: 46px;
+            height: 43px;
+            &.home-bn, &.home-bn{
+                background-image: url(static/images/logo/gp-sm.png); 
+            }
+        }
+    }
 }

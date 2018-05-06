@@ -1,0 +1,210 @@
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('source/fonts/Telenor-Light.eot');
+    src: url('source/fonts/Telenor-Light.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/Telenor-Light.woff2') format('woff2'),
+        url('source/fonts/Telenor-Light.woff') format('woff'),
+        url('source/fonts/Telenor-Light.ttf') format('truetype'),
+        url('source/fonts/Telenor-Light.svg#Telenor-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('source/fonts/Telenor-Italic.eot');
+    src: url('source/fonts/Telenor-Italic.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/Telenor-Italic.woff2') format('woff2'),
+        url('source/fonts/Telenor-Italic.woff') format('woff'),
+        url('source/fonts/Telenor-Italic.ttf') format('truetype'),
+        url('source/fonts/Telenor-Italic.svg#Telenor-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('source/fonts/Telenor-Medium.eot');
+    src: url('source/fonts/Telenor-Medium.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/Telenor-Medium.woff2') format('woff2'),
+        url('source/fonts/Telenor-Medium.woff') format('woff'),
+        url('source/fonts/Telenor-Medium.ttf') format('truetype'),
+        url('source/fonts/Telenor-Medium.svg#Telenor-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('source/fonts/Telenor-MediumItalic.eot');
+    src: url('source/fonts/Telenor-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/Telenor-MediumItalic.woff2') format('woff2'),
+        url('source/fonts/Telenor-MediumItalic.woff') format('woff'),
+        url('source/fonts/Telenor-MediumItalic.ttf') format('truetype'),
+        url('source/fonts/Telenor-MediumItalic.svg#Telenor-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('source/fonts/Telenor-BoldItalic.eot');
+    src: url('source/fonts/Telenor-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/Telenor-BoldItalic.woff2') format('woff2'),
+        url('source/fonts/Telenor-BoldItalic.woff') format('woff'),
+        url('source/fonts/Telenor-BoldItalic.ttf') format('truetype'),
+        url('source/fonts/Telenor-BoldItalic.svg#Telenor-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('source/fonts/Telenor-LightItalic.eot');
+    src: url('source/fonts/Telenor-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/Telenor-LightItalic.woff2') format('woff2'),
+        url('source/fonts/Telenor-LightItalic.woff') format('woff'),
+        url('source/fonts/Telenor-LightItalic.ttf') format('truetype'),
+        url('source/fonts/Telenor-LightItalic.svg#Telenor-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('source/fonts/Telenor.eot');
+    src: url('source/fonts/Telenor.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/Telenor.woff2') format('woff2'),
+        url('source/fonts/Telenor.woff') format('woff'),
+        url('source/fonts/Telenor.ttf') format('truetype'),
+        url('source/fonts/Telenor.svg#Telenor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('source/fonts/Telenor-Bold.eot');
+    src: url('source/fonts/Telenor-Bold.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/Telenor-Bold.woff2') format('woff2'),
+        url('source/fonts/Telenor-Bold.woff') format('woff'),
+        url('source/fonts/Telenor-Bold.ttf') format('truetype'),
+        url('source/fonts/Telenor-Bold.svg#Telenor-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 'Together webfont'  */
+@font-face {
+    font-family: 'Together';
+    src: url('source/fonts/together-webfont.eot');
+    src: url('source/fonts/together-webfont.eot?#iefix') format('embedded-opentype'),
+        url('source/fonts/together-webfont.woff') format('woff'),
+        url('source/fonts/together-webfont.ttf') format('truetype'),
+        url('source/fonts/together-webfont.svg#together') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url('source/fonts/Noto Sans Bengali.eot');
+    src: local('☺'), url('source/fonts/Noto_Sans_Bengali.woff') format('woff'), url('source/fonts/Noto_Sans_Bengali.ttf') format('truetype'), url('source/fonts/Noto_Sans_Bengali.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url('source/fonts/Noto_Sans_Bengali_Bold.eot');
+    src: local('☺'), url('source/fonts/Noto_Sans_Bengali_Bold.woff') format('woff'), url('source/fonts/Noto_Sans_Bengali_Bold.ttf') format('truetype'), url('source/fonts/Noto_Sans_Bengali_Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'fourG';
+    src:  url('source/fonts/fourG.eot?f90k1y');
+    src:  url('source/fonts/fourG.eot?f90k1y#iefix') format('embedded-opentype'),
+        url('source/fonts/fourG.ttf?f90k1y') format('truetype'),
+        url('source/fonts/fourG.woff?f90k1y') format('woff'),
+        url('source/fonts/fourG.svg?f90k1y#fourG') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fg-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'fourG';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fg-icon{
+    &.icon_sim:before {
+        content: "\e90a";
+    }
+    &.icon_launch:before {
+        content: "\e90b";
+    }
+    &.icon_phone:before {
+        content: "\e90c";
+    }
+    &.icon_settings:before {
+        content: "\e90d";
+    }
+    &.icon_social_instagram:before {
+        content: "\e90e";
+    }
+    &.arrow_right:before {
+        content: "\e90f";
+    }
+    &.icon_menu:before {
+        content: "\e900";
+    }
+    &.icon_close:before {
+        content: "\e901";
+    }
+    &.icon_plus:before {
+        content: "\e902";
+    }
+    &.icon_minus:before {
+        content: "\e903";
+    }
+    &.icon_arrow-upward:before {
+        content: "\e904";
+    }
+    &.icon_play:before {
+        content: "\e905";
+    }
+    &.icon_social_linkedin:before {
+        content: "\e906";
+    }
+    &.icon_social_twitter:before {
+        content: "\e907";
+    }
+    &.icon_social_youtube:before {
+        content: "\e908";
+    }
+    &.icon_social_facebook:before {
+        content: "\e909";
+    }
+    .icon_scroll:before {
+        content: "\e910";
+    }
+    .icon_status_warning:before {
+        content: "\e911";
+    }
+    .icon_status_success:before {
+        content: "\e912";
+    }
+}

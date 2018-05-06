@@ -1,0 +1,71 @@
+.ampstart-headerbar{
+    background: linear-gradient(180deg, #031021 23.2%, rgba(3, 16, 33, 0) 100%);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 30px 40px;
+    .ampstart-headerbar-home-link{
+        display: block;
+        overflow: hidden;
+        text-indent: -999px;
+        position: absolute;
+        @media (min-width:$device_lg) {
+            width: 235px;
+            height: 65px;
+            &.home-en{
+                background-image: url(source/images/logo/gp-en.png);
+            }
+            &.home-bn{
+                background-image: url(source/images/logo/gp-en.png); 
+            }
+        }
+        @media (max-width:$device_sm_max) {
+            width: 46px;
+            height: 43px;
+            &.home-bn, &.home-bn{
+                background-image: url(source/images/logo/gp-sm.png); 
+            }
+        }
+    }
+    .ampstart-headerbar-nav{
+        height: 65px;
+        display: block;
+        ul{
+            padding: 9px 0;
+            float: right;
+            margin: 0;
+
+            >li{
+                display: inline-block;
+                >a{
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    line-height: 47px;
+                    position: relative;
+                    display: block;
+                    font-size: 16px;
+                    padding: 0 16px;
+                    color: rgba(255,255,255,.54);
+                    &:hover{
+                        color: rgba(255,255,255,1);
+                        text-shadow:0px 0px 15px rgba(255, 255, 255, 0.75);
+                    }
+                   @include transition();
+                   @include transition-duration(.2s);
+                   &.ln-link-bn{
+                     font-family: 'Noto Sans Bengali';   
+                   }
+                   &.btn-bordered{
+                        color: rgba(255,255,255,1);
+                       &:hover{
+                            text-shadow:none;
+                       }
+                   }
+                }
+                
+            }
+        }
+    }
+}
